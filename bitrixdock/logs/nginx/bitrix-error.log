@@ -1,0 +1,1 @@
+2020/06/12 10:33:23 [error] 7#7: *1 FastCGI sent in stderr: "Unable to open primary script: /var/www/bitrix/bitrix/urlrewrite.php (No such file or directory)" while reading response header from upstream, client: 10.100.0.1, server: bitrix, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://10.100.0.4:9000", host: "127.0.0.1", referrer: "http://127.0.0.1/"

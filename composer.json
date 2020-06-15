@@ -1,0 +1,30 @@
+{
+  "name": "sb/test-project",
+  "description": "Test exercise",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "sergey",
+      "email": "sergeybr94@mail.ru"
+    }
+  ],
+  "require": {
+    "wikimedia/composer-merge-plugin": "dev-master",
+    "notamedia/console-jedi": "^1.2",
+    "andreyryabin/sprint.migration": "dev-master"
+  },
+  "autoload": {
+    "psr-0": {"": "src/"}
+  },
+  "extra": {
+    "merge-plugin": {
+      "require": [
+        "site/bitrix/composer-bx.json"
+      ]
+    },
+    "installer-paths": {
+      "site/local/modules/{$name}/": ["type:bitrix-module"]
+    }
+  }
+}
