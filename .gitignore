@@ -1,2 +1,7 @@
-/site/bitrix/
 /site/upload/
+/site/bitrix/
+/bitrixdock/logs/
+.DS_Store
+.idea/
+bitrixdock/data/memcached/
+vendor/
